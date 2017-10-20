@@ -10,7 +10,7 @@ function nowServing(currentQue){
   }
   else{
     tempText = `Currently serving ${currentQue[0]}.`
-    currentQue.shifts();
+    currentQue.shift();
   }
   return tempText;
 }
