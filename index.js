@@ -14,3 +14,7 @@ function nowServing(currentQue){
   }
   return tempText;
 }
+
+function currentLine(line){
+  
+}
