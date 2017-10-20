@@ -25,7 +25,7 @@ function currentLine(line){
     for(let i=0; i < line.length-1; i++){
       tempText = tempText + `${i+1}. ${line[i]},`
     }
-    tempText = tempText + `${line.length}. ${line[i]}`
+    tempText = tempText + `${line.length}. ${line[line.length]}`
   }
   return tempText
 }
